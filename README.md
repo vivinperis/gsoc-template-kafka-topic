@@ -15,8 +15,9 @@
 * Organization: [Syslog-ng](https://github.com/syslog-ng/syslog-ng)
 
 
-* Mentors: [Balazs Scheidler](https://github.com/bazsi)
-           [Attila Szakacs](https://github.com/alltilla)
+* Mentors: * [Balazs Scheidler](https://github.com/bazsi)
+
+           * [Attila Szakacs](https://github.com/alltilla)
 
 
 * Draft Proposal: [Add support for the template() syntax in the kafka() destination](https://github.com/syslog-ng/syslog-ng/wiki/GSoC-2020-Proposal-:-Add-support-for-the-template()-syntax-in-the-kafka()-destination-in-C-based-implementation(vivinperis))
