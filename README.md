@@ -15,9 +15,8 @@
 * Organization: [Syslog-ng](https://github.com/syslog-ng/syslog-ng)
 
 
-* Mentors: * [Balazs Scheidler](https://github.com/bazsi)
-
-           * [Attila Szakacs](https://github.com/alltilla)
+* Mentors: [Balazs Scheidler](https://github.com/bazsi) and
+           [Attila Szakacs](https://github.com/alltilla)
 
 
 * Draft Proposal: [Add support for the template() syntax in the kafka() destination](https://github.com/syslog-ng/syslog-ng/wiki/GSoC-2020-Proposal-:-Add-support-for-the-template()-syntax-in-the-kafka()-destination-in-C-based-implementation(vivinperis))
@@ -37,7 +36,7 @@ The project involved adding support for template() syntax in the topic() paramet
 
 ## Tasks involved
 
-* Change in grammar and parser to include fallback_topic() and make topic() into template type.
+* Change in grammar and parser to include fallback_topic() and convert topic() into template type.
 
 * Refactoring changes in the driver to support template and non template cases.
 
@@ -48,6 +47,8 @@ The project involved adding support for template() syntax in the topic() paramet
 * Unit tests to test the validate and calculate topic methods.
 
 * Created an internal header file for access to methods required for unit test.
+
+* Test for memory leaks using Valgrind.
 
 ## Link to PR(merged) : [PR#3372](https://github.com/syslog-ng/syslog-ng/pull/3372/files)
  
