@@ -21,7 +21,7 @@
 * Draft Proposal: [Add support for the template() syntax in the kafka() destination](https://github.com/syslog-ng/syslog-ng/wiki/GSoC-2020-Proposal-:-Add-support-for-the-template()-syntax-in-the-kafka()-destination-in-C-based-implementation(vivinperis))
 
 
-### Project overview
+## Project overview
 
 
 Syslog-ng is a highly scalable logging application, which is used collect logs from various sources on a centralized log server and allows to process them with parsers, filters, and specialized modules before sending them to various destinations. 
