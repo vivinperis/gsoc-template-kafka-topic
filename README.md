@@ -26,7 +26,7 @@
 
 
 Syslog-ng is a highly scalable logging application, which is used collect logs from various sources on a centralized log server and allows to process them with parsers, filters, and specialized modules before sending them to various destinations. 
-The project involved implementation of template() syntax in the librdkafka based implementation of Kafka destination.
+The project involved implementation of template() syntax in the topic() parameter of librdkafka based implementation of Kafka destination.
 
 
 ## Project Abstract
